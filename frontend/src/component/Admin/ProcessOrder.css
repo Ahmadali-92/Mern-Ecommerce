@@ -1,0 +1,76 @@
+.updateOrderForm {
+  margin: 5vmax 0;
+  padding: 2vmax;
+  background-color: white;
+}
+
+.updateOrderForm > div {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.updateOrderForm > div > select {
+  padding: 1vmax 4vmax;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.267);
+  border-radius: 4px;
+  font: 300 1vmax cursive;
+  outline: none;
+  margin: 2vmax 0;
+}
+
+.updateOrderForm > div > svg {
+  position: absolute;
+  transform: translateX(1vmax);
+  color: rgba(0, 0, 0, 0.566);
+}
+#updateOrderBtn {
+  border: none;
+  background-color: tomato;
+  color: white;
+  font: 500 1vmax "Roboto";
+  width: 100%;
+  padding: 1vmax 2.5vmax;
+  cursor: pointer;
+  transition: all 0.5s;
+  border-radius: 4px;
+  outline: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.219);
+}
+#updateOrderBtn:hover {
+  background-color: rgb(179, 66, 46);
+}
+
+@media screen and (max-width: 1030px) {
+  .updateOrderForm {
+    padding: 5vmax;
+    width: 90%;
+  }
+
+  .updateOrderForm > div > select {
+    padding: 1.5vmax 5vmax;
+    font-size: 2vmax;
+  }
+  .updateOrderForm > div > svg {
+    font-size: 3vmax;
+  }
+  #updateOrderFormFile > img {
+    width: 6.5vmax;
+    height: 6.5vmax;
+    border-radius: 100%;
+    margin-right: 0.5vmax;
+  }
+  #updateOrderFormFile > input::file-selector-button {
+    height: 7vh;
+    font-size: 1.9vmax;
+  }
+  #updateOrderFormImage > img {
+    width: 5vmax;
+    height: 5vmax;
+  }
+  #updateOrderBtn {
+    font-size: 2vmax;
+    padding: 1.5vmax;
+  }
+}

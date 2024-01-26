@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Cedarville+Cursive&family=Dancing+Script&family=Kanit:wght@100&family=Oswald:wght@500&family=Poppins:wght@300&family=Roboto:wght@300;400;500;700;900&family=Ubuntu:wght@300&display=swap");
+#peroductDetailshbhai {
+  /* background-color: rgb(247, 239, 239); */
+  width: 100vw;
+  max-width: 100%;
+  padding: 5vmax;
+  box-sizing: border-box;
+  display: flex;
+}
+#peroductDetailshbhai > div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2vmax;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+#peroductDetailshbhai > div:last-child {
+  align-items: flex-start;
+}
+#CaerouselImagehbhai {
+  width: 22vmax;
+}
+.deetailsBloack-1 > h2 {
+  color: rgb(54, 45, 54);
+  font: 700 2.3vmax "Roboto";
+}
+.deetailsBloack-1 > p {
+  color: rgb(54, 45, 54, 0.582);
+  font: 200 0.7vmax cursive;
+}
+.deetailsBloack-2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.205);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.205);
+  width: 70%;
+  padding: 1vmax 0;
+}
+.deetailsBloack-2-span {
+  font: 200 0.9vmax cursive;
+  color: rgba(0, 0, 0, 0.699);
+}
+.deetailsBloack-3 {
+  width: 70%;
+}
+.deetailsBloack-3 > h1 {
+  color: rgba(17, 17, 17, 0.795);
+  font: 600 1.8vmax "Dancing";
+  margin: 1vmax 0;
+}
+.deetailsBloack-3-1 {
+  display: flex;
+  align-items: center;
+}
+.deetailsBloack-3-1-1 > button {
+  border: none;
+  background-color: rgba(0, 0, 0, 0.616);
+  padding: 0.2vmax 0.5vmax;
+  cursor: pointer;
+  color: white;
+  transition: all 0.5s;
+}
+.deetailsBloack-3-1-1 > button:hover {
+  background-color: rgba(0, 0, 0, 0.777);
+}
+.deetailsBloack-3-1-1 > input {
+  border: none;
+  padding: 0.5vmax;
+  padding-bottom: 0.5vmax;
+  width: 4.5vmax;
+  text-align: center;
+  outline: none;
+  font: 400 1.1vmax "Roboto";
+  color: rgba(0, 0, 0, 0.74);
+}
+.deetailsBloack-3-1 > button:last-child {
+  border: none;
+  cursor: pointer;
+  color: white;
+  transition: all 0.5s;
+  background-color: tomato;
+  font: 500 0.9vmax "Roboto";
+  border-radius: 20px;
+  padding: 0.7vmax 2.5vmax;
+  margin: 1vmax;
+  outline: none;
+}
+.deetailsBloack-3-1 > button:hover {
+  background-color: rgb(214, 84, 61);
+}
+.deetailsBloack-3 > p {
+  border-top: 1px solid rgba(0, 0, 0, 0.205);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.205);
+  color: rgba(0, 0, 0, 0.651);
+  font: 400 1.3vmax "Roboto";
+  padding: 1vmax 0;
+  margin: 1vmax 0;
+}
+.deetailsBloack-4 {
+  color: rgba(0, 0, 0, 0.897);
+  font: 700 1.3vmax sans-serif;
+}
+.deetailsBloack-4 > p {
+  color: rgba(0, 0, 0, 0.534);
+  font: 300 0.9vmax sans-serif;
+  margin-top: 0.2vmax;
+}
+.submitReviewbtn {
+  border: none;
+  cursor: pointer;
+  color: white;
+  transition: all 0.5s;
+  background-color: tomato;
+  font: 500 0.9vmax "Roboto";
+  border-radius: 20px;
+  padding: 0.7vmax 2.5vmax;
+  margin: 1vmax;
+  outline: none;
+}
+.submitReviewbtn:hover {
+  background-color: rgb(214, 84, 61);
+  transform: scale(1.1);
+}
+
+/* Review Card css*/
+.reviewsHeading {
+  color: #000000be;
+  font: 500 2vmax "Roboto";
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.226);
+  padding: 1vmax;
+  width: 20vmax;
+  margin: auto;
+  margin-bottom: 4vmax;
+}
+.reviewss {
+  display: flex;
+  overflow: auto;
+  /* flex-wrap: wrap; */
+}
+.reviewssCard {
+  flex: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.226);
+  border: 1px solid black rgba(56, 56, 56, 0.116);
+  width: 30vmax;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1vmax;
+  padding: 3vmax;
+}
+.reviewssCard > img {
+  width: 5vmax;
+  margin-bottom: 1vmax;
+}
+.reviewssCard > p {
+  color: rgba(0, 0, 0, 0.836);
+  font: 500 1.3vmax "Roboto";
+}
+.reviewssCard > div {
+  margin-top: -1vmax;
+}
+.reviewssCard > span {
+  color: rgba(0, 0, 0, 0.445);
+  font: 300 1.1vmax cursive;
+  margin-top: -0.3vmax;
+}
+.noReviewss {
+  font: 400 1.4vmax "Roboto";
+  text-align: center;
+  color: rgba(0, 0, 0, 0.548);
+  font-style: italic;
+}
+/* Review Dialog box css */
+.submitDialog {
+  display: flex;
+  flex-direction: column;
+}
+.submitDialogTextArea {
+  border: 2px solid rgba(0, 0, 0, 0.082);
+  margin: 1vmax 0;
+  outline: none;
+  padding: 1rem;
+  font: 300 1rem "Roboto";
+}
+
+@media screen and (max-width: 290px) {
+  .deetailsBloack-2 {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 600px) {
+  #peroductDetailshbhai {
+    flex-direction: column;
+    height: unset;
+  }
+  #peroductDetailshbhai > div:last-child {
+    align-items: center;
+  }
+  .deetailsBloack-1 > h2 {
+    font-size: 3.5vmax;
+    text-align: center;
+  }
+  .deetailsBloack-1 > p {
+    font-size: 1.3vmax;
+    text-align: center;
+  }
+  .deetailsBloack-2 {
+    justify-content: center;
+  }
+  .deetailsBloack-2-span {
+    font-size: 1.3vmax;
+  }
+  .deetailsBloack-3 > h1 {
+    font: 700 3vmax "Dancing";
+    text-align: center;
+  }
+  .deetailsBloack-3-1 {
+    flex-direction: column;
+  }
+  .deetailsBloack-3-1-1 {
+    padding: 2vmax 0;
+  }
+  .deetailsBloack-3-1-1 > button {
+    padding: 1vmax 1vmax;
+  }
+  .deetailsBloack-3-1-1 > input {
+    padding: 1.8vmax;
+    width: 8vmax;
+    font: 400 1.8vmax "Roboto";
+    padding-bottom: 1vmax;
+    padding-top: 1.6vmax;
+  }
+  .deetailsBloack-3-1 > button:last-child {
+    font: 500 1.5vmax "Roboto";
+    padding: 1.3vmax 4vmax;
+    border-radius: 20px;
+    margin: 2vmax 0;
+  }
+  .deetailsBloack-3 > p {
+    padding: 2.5vmax 0;
+    text-align: center;
+    font: 400 2vmax "Roboto";
+  }
+  .deetailsBloack-4 {
+    font: 700 2.1vmax sans-serif;
+  }
+  .deetailsBloack-4 > p {
+    font: 300 1.5vmax sans-serif;
+    margin-top: 0.3vmax;
+  }
+  .submitReviewbtn {
+    font: 500 1.5vmax "Roboto";
+    padding: 1.3vmax 4vmax;
+    border-radius: 20px;
+    margin: 1.5vmax 0;
+  }
+  .reviewssCard > p {
+    font-size: 2vmax;
+  }
+  .reviewssCard > span {
+    font-size: 1.8vmax;
+  }
+}

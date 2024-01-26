@@ -1,0 +1,61 @@
+.sidebar {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 0;
+}
+/* .sidebar > a:first-child {
+  padding: 0;
+}
+.sidebar > a > img {
+  width: 2vmax;
+  transition: all 0.5s;
+}
+.sidebar > a > img:hover {
+  filter: drop-shadow(0 0 10px tomato);
+}
+.logo-txt {
+  font-size: 0.8vmax;
+  font-weight: 600;
+  color: black;
+  font-family: "Dancing Script";
+} */
+.All-Create > a,
+.MuiTreeItem-root {
+  text-decoration: none;
+  transition: all 0.5s;
+  color: rgba(0, 0, 0, 0.493);
+  padding: 1.5rem;
+  font: 400 1rem "Roboto";
+}
+.sidebar > a {
+  text-decoration: none;
+  transition: all 0.5s;
+  color: rgba(0, 0, 0, 0.493);
+  padding: 1.5rem;
+  font: 400 1rem "Roboto";
+}
+.sidebar > a:hover {
+  color: tomato;
+  transform: scale(1.1);
+}
+.sidebar a > p {
+  display: flex;
+  align-items: center;
+}
+.sidebar a > p > svg {
+  margin: 0.5rem;
+  font-size: 1.2rem;
+}
+.MuiTypography-root {
+  background-color: white !important;
+}
+@media screen and (max-width: 600px) {
+  /* .sidebar {
+    padding: 0;
+  }
+  .sidebar > a {
+    padding-right: 0;
+    padding-left: 0;
+  } */
+}

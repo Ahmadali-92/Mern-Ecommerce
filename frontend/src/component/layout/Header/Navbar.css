@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Dancing+Script&family=Kanit:wght@100&family=Oswald:wght@500&family=Poppins:wght@300&family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap");
+/* .nav-Stick {
+  position: fixed;
+  z-index: 100000;
+  width: 100%;
+} */
+#navBar-Icons {
+  /* background-color: red; */
+  width: 8vmax;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+.s1 {
+  color: black;
+}
+.c2 > svg {
+  color: black;
+}
+.p3 {
+  color: black;
+}
+.s1:hover {
+  color: rgb(195, 17, 17);
+}
+.c2 > svg:hover {
+  color: rgb(195, 17, 17);
+}
+.p3:hover {
+  color: rgb(195, 17, 17);
+}
+.nav-Bar {
+  font-weight: 700;
+  transition: all 0.3s;
+}
+.nav-Bar:hover {
+  color: rgb(195, 17, 17);
+  text-decoration: underline;
+  font-style: italic;
+}
+.e-Logo-Txt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 700;
+}
+#eCommerceLogo {
+  width: 2vmax;
+  transition: all 0.5s;
+}
+#eCommerceLogo:hover {
+  filter: drop-shadow(0 0 10px tomato);
+}
+.e-Logo-Txt:hover {
+  color: rgb(195, 17, 17);
+}
+#eCommercetxt {
+  font-size: 0.7vmax;
+  font-family: "Dancing Script", "cursive";
+}
+/* profile css */
+.speedDial {
+  position: fixed;
+  right: 1vmax;
+  top: 6vmax;
+}
+.speedDialIcon {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+@media screen and (max-width: 992px) {
+  .e-Logo-Txt {
+    flex-direction: row;
+    gap: 10px;
+  }
+  #eCommercetxt {
+    font-size: 10px;
+    font-weight: bold;
+  }
+  #eCommerceLogo {
+    width: 20px;
+  }
+  .speedDial {
+    top: 8vmax;
+  }
+}

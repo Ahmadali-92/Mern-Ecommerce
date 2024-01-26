@@ -1,0 +1,111 @@
+.profileContainar {
+  display: flex;
+  height: 90vh;
+  width: 100vw;
+  position: fixed;
+  left: 0%;
+  max-width: 100%;
+  background-color: white;
+}
+.profileContainar > div {
+  display: flex;
+  height: 90vh;
+  width: 100vw;
+  max-width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.profileContainar > div:first-child > h1 {
+  color: rgba(0, 0, 0, 0.555);
+  font: 500 2.2vmax "Roboto";
+  transform: translateY(-2vmax);
+}
+.profileContainar > div:first-child > img {
+  width: 20vmax;
+  border-radius: 100%;
+  transition: all 0.5s;
+}
+.profileContainar > div:first-child > img:hover {
+  transform: scale(1.05);
+}
+.profileContainar > div:first-child > a {
+  border: none;
+  background-color: tomato;
+  font: 500 1.3vmax "Roboto";
+  color: white;
+  text-decoration: none;
+  padding: 0.5vmax;
+  width: 35%;
+  margin: 4vmax;
+  text-align: center;
+  transition: all 0.5s;
+}
+.profileContainar > div:first-child > a:hover {
+  background-color: rgb(204, 78, 56);
+}
+.profileContainar > div:last-child {
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 5vmax;
+  box-sizing: border-box;
+}
+.profileContainar > div:last-child > div > h4 {
+  color: black;
+  font: 500 1.5vmax "Roboto";
+}
+.profileContainar > div:last-child > div > p {
+  color: rgba(0, 0, 0, 0.543);
+  margin: 0.2vmax;
+  font: 400 1.3vmax cursive;
+}
+.profileContainar > div:last-child > div:last-child {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.profileContainar > div:last-child > div:last-child > a {
+  border: none;
+  background-color: rgb(68, 68, 68);
+  font: 500 1.3vmax "Roboto";
+  color: white;
+  text-decoration: none;
+  padding: 0.5vmax;
+  text-align: center;
+  transition: all 0.5s;
+  margin: 1vmax 0;
+}
+.profileContainar > div:last-child > div:last-child > a:hover {
+  background-color: rgb(31, 31, 31);
+}
+
+@media screen and (max-width: 600px) {
+  .profileContainar {
+    flex-direction: column;
+    position: absolute;
+  }
+  .profileContainar > div:first-child > h1 {
+    font-size: 3vmax;
+  }
+  .profileContainar > div:first-child > a {
+    font-size: 1.8vmax;
+    padding: 1vmax;
+  }
+  .profileContainar > div:last-child {
+    text-align: center;
+    align-items: center;
+    padding-top: 0%;
+  }
+  .profileContainar > div:last-child > div > h4 {
+    font-size: 2.5vmax;
+  }
+  .profileContainar > div:last-child > div > p {
+    font-size: 2.1vmax;
+    margin: 0.5vmax 0;
+  }
+  .profileContainar > div:last-child > div:last-child > a {
+    font-size: 1.9vmax;
+    padding: 1vmax;
+    margin: 2vmax 0;
+  }
+}

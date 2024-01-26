@@ -1,0 +1,94 @@
+.productsHeading {
+  margin: 2vmax auto;
+  width: 15vw;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.171);
+  padding: 2vmax;
+  color: rgba(0, 0, 0, 0.678);
+  font: 500 1.5vmax "Roboto";
+  text-align: center;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 5vmax;
+  justify-content: center;
+  min-height: 30vh;
+}
+.paginationBox {
+  display: flex;
+  justify-content: center;
+  margin: 6vmax;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+.page-item {
+  transition: all 0.3s;
+}
+.page-item:hover {
+  background-color: rgb(230, 230, 230);
+}
+.page-link {
+  text-decoration: none;
+  font: 400 1vmax cursive;
+  color: rgb(80, 80, 80);
+  transition: all 0.3s;
+  padding: 1vmax;
+}
+.page-item:hover .page-link {
+  color: rgb(0, 0, 0);
+}
+.pageItemActive {
+  background-color: tomato;
+}
+.pageLinkActive {
+  background-color: tomato;
+  color: white;
+}
+.filterBox {
+  width: 10vmax;
+  position: absolute;
+  top: 14vmax;
+  left: 2vmax;
+}
+.categoryBox {
+  padding: 0;
+}
+.category-link {
+  list-style: none;
+  color: rgba(0, 0, 0, 0.61);
+  font: 400 0.9vmax "Roboto";
+  margin: 0.4vmax;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.category-link:hover {
+  color: tomato;
+  transform: scale(1.1);
+}
+@media screen and (max-width: 1025px) {
+  .filterBox {
+    width: 8.5vmax;
+    left: 1vmax;
+  }
+  .category-link {
+    font-size: 1.2vmax;
+  }
+}
+@media screen and (max-width: 822px) {
+  .filterBox {
+    width: 20vmax;
+    position: static;
+    margin: auto;
+  }
+  .products {
+    padding: 0 0vmax;
+  }
+  .page-link {
+    font: 400 1.5vmax cursive;
+  }
+  .category-link {
+    font-size: 1.5vmax;
+  }
+}
