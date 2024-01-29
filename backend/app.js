@@ -13,8 +13,8 @@ dotenv.config({ path: "backend/config/config.env" });
 //app.use('/api/v1',product) is ko use krny k liya command
 app.use(express.json());
 app.use(cookieParser());
-app.use(express.json({limit: '500mb'}));
-app.use(express.urlencoded({limit: '500mb', extended: true ,parameterLimit:50000}));
+app.use(bodyParser.json({limit: '50mb'}));
+app.use(bodyParser.urlencoded({limit: '50mb', extended: true}));
 // app.use(bodyParser.urlencoded({ extended: true }));
 app.use(fileUpload());
 
